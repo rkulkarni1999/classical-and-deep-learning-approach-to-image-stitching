@@ -16,16 +16,20 @@ feature matching, RANSAC, homography estimation and blending.
 ### Results
 
 #### Corner Detection and Non Maximal Suppression
-<img src="Phase1/Code/results/Set1/good_featue_to_track.png"  align="center" alt="Undistorted" width="500"/>
+<img src="Phase1/Code/results/harris_corner_detector.png"  align="center" alt="Undistorted" width="500"/>
 
 #### Feature Matching
-<img src="Phase1/Code/results/Set1/Feature_matching.png"  align="center" alt="Undistorted" width="500"/>
+<img src="Phase1/Code/results/feature_matching.png"  align="center" alt="Undistorted" width="500"/>
 
 #### Outlier Rejection using RANSAC
-<img src="Phase1/Code/results/Set1/RAnsac.png"  align="center" alt="Undistorted" width="500"/>
+<img src="./Phase1/Code/results/outlier_rejection_ransac.png"  align="center" alt="Undistorted" width="500"/>
 
 #### Warping, Blending and Stitching
-<img src="Phase1/Code/results/Set1/Set1.png"  align="center" alt="Undistorted" width="500"/>
+<img src="./Phase1/Code/Results/final1.png"  align="center" alt="Undistorted" width="500"/>
+
+<img src="./Phase1/Code/Results/final2.png"  align="center" alt="Undistorted" width="500"/>
+
+<img src="./Phase1/Code/Results/final3.png"  align="center" alt="Undistorted" width="500"/>
 
 ### Usage Guidelines
 
@@ -43,22 +47,34 @@ In Deep learning, used Homography Net (both supervised and unsupervised) to esti
 ### DataSet Generation
 To generate dataset, run the following command in Phase2/Code/supervised: -
     ```
-    python3 Wrapper.py
+    python3 make_dataset.py
     ```
+
+#### Original Patch
+
+<img src="./Phase2/Code/supervised/Results/original_patch.jpg"  align="center" alt="Undistorted" width="400"/>
+
+#### Patch after applying perturbations 
+
+<img src="./Phase2/Code/supervised/Results/warped_patch.jpg"  align="center" alt="Undistorted" width="400"/>
 
 ### Supervised Homography
 
-<img src="Phase2/Code/supervised/Results/Supervised.png"  align="center" alt="Undistorted" width="400"/>
+<img src="Phase2\Code\supervised\Results\network_architecture_supervised.png"  align="center" alt="Undistorted" width="400"/>
 
 #### Result
 
 ##### Training Loss
-<img src="Phase2/Code/supervised/loss.png"  align="center" alt="Undistorted" width="300"/>
+<img src="./Phase2/Code/supervised/Results/train_loss_sup.jpg"  align="center" alt="Undistorted" width="300"/>
 
-##### Input and Output Patch
-<img src="Phase2/Code/supervised/Results/Sample.jpeg"  align="center" alt="Undistorted" width="250"/>
+##### Validation Loss
+<img src="./Phase2/Code/supervised/Results/val_loss_sup.jpg"  align="center" alt="Undistorted" width="300"/>
 
+##### Stitched Image. 
 
+<img src="./Phase2/Code/supervised/Results/Testset2pano.png"  align="center" alt="Undistorted" width="300"/>
+
+<img src="./Phase2/Code/supervised/Results/Testset3pano.png"  align="center" alt="Undistorted" width="300"/>
 
 1. To train the network, run: -
     ```
@@ -84,3 +100,17 @@ To generate dataset, run the following command in Phase2/Code/supervised: -
     python3 Test.py
     ```
 
+#### Result
+
+##### Training Loss
+
+<img src="./Phase2/Code/unsupervised/Results/val_loss_unsup.jpg"  align="center" alt="Undistorted" width="300"/>
+
+##### Validation Loss
+
+<img src="./Phase2/Code/unsupervised/Results/val_loss_unsup.jpg"  align="center" alt="Undistorted" width="300"/>
+
+
+##### Output on the Patch (Image, Ground Truth, Prediction)
+
+<img src="./Phase2/Code/unsupervised/Results/t2.jpg"  align="center" alt="Undistorted" width="300"/>
