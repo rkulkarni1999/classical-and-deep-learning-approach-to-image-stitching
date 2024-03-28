@@ -16,10 +16,10 @@ feature matching, RANSAC, homography estimation and blending.
 ### Results
 
 #### Corner Detection and Non Maximal Suppression
-<img src="Phase1/Code/results/harris_corner_detector.png"  align="center" alt="Undistorted" width="500"/>
+<img src="./Phase1/Code/results/harris_corner_detector.png"  align="center" alt="Undistorted" width="500"/>
 
 #### Feature Matching
-<img src="Phase1/Code/results/feature_matching.png"  align="center" alt="Undistorted" width="500"/>
+<img src="./Phase1/Code/results/feature_matching.png"  align="center" alt="Undistorted" width="500"/>
 
 #### Outlier Rejection using RANSAC
 <img src="./Phase1/Code/results/outlier_rejection_ransac.png"  align="center" alt="Undistorted" width="500"/>
@@ -60,7 +60,7 @@ To generate dataset, run the following command in Phase2/Code/supervised: -
 
 ### Supervised Homography
 
-<img src="Phase2\Code\supervised\Results\network_architecture_supervised.png"  align="center" alt="Undistorted" width="400"/>
+<img src="./Phase2\Code\supervised\Results\network_architecture_supervised.png"  align="center" alt="Undistorted" width="400"/>
 
 #### Result
 
@@ -88,7 +88,7 @@ To generate dataset, run the following command in Phase2/Code/supervised: -
 
 ### Unsupervised Homography
 
-<img src="Phase2/Code/unsupervised/Unsupervised.png"  align="center" alt="Undistorted" width="550"/>
+<img src="./Phase2/Code/unsupervised/Unsupervised.png"  align="center" alt="Undistorted" width="550"/>
 
 1. To train the network, run: -
     ```
