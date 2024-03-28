@@ -15,15 +15,15 @@ feature matching, RANSAC, homography estimation and blending.
 
 ### Results
 
-#### Corner Detection and Non Maximal Suppression
+#### Corner Detection and Non-Maximal Suppression
 
-<img src="./Phase1/Code/results/harris_corner_detector.png"  align="center" alt="Undistorted" width="500"/>
+<img src="./Phase1/Code/Results/harris_corner_detector.png"  align="center" alt="Undistorted" width="500"/>
 
 #### Feature Matching
-<img src="./Phase1/Code/results/feature_matching.png"  align="center" alt="Undistorted" width="500"/>
+<img src="./Phase1/Code/Results/feature_matching.png"  align="center" alt="Undistorted" width="500"/>
 
 #### Outlier Rejection using RANSAC
-<img src="./Phase1/Code/results/outlier_rejection_ransac.png"  align="center" alt="Undistorted" width="500"/>
+<img src="./Phase1/Code/Results/outlier_rejection_ransac.png"  align="center" alt="Undistorted" width="500"/>
 
 #### Warping, Blending and Stitching
 <img src="./Phase1/Code/Results/final1.png"  align="center" alt="Undistorted" width="500"/>
