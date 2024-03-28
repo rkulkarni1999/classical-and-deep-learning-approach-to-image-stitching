@@ -16,6 +16,7 @@ feature matching, RANSAC, homography estimation and blending.
 ### Results
 
 #### Corner Detection and Non Maximal Suppression
+
 <img src="./Phase1/Code/results/harris_corner_detector.png"  align="center" alt="Undistorted" width="500"/>
 
 #### Feature Matching
